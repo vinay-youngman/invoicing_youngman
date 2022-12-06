@@ -84,6 +84,9 @@
                     <field name="job_order" optional="show" string="Job Order"/>
                 </xpath>
                 <xpath expr="//field[@name='invoice_date']" position="before">
+                    <field name="godown" optional="show" string="Branch"/>
+                </xpath>
+                <xpath expr="//field[@name='invoice_date']" position="before">
                     <field name="gstn" optional="show" string="GSTN"/>
                 </xpath>
                 <xpath expr="//field[@name='date']" position="after">
